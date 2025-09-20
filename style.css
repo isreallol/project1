@@ -80,6 +80,22 @@ img {
     color: #000;
 }
 
+.main-image {
+    max-width: 100%;
+    width: 400px;      /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ffd700;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+}
+
 footer {
     text-align: center;
     padding: 20px;
