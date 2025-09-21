@@ -64,6 +64,7 @@ img {
     box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
 }
 
+
 .choice a {
     text-decoration: none;
     color: #ffd700;
@@ -72,6 +73,7 @@ img {
     border-radius: 5px;
     display: block;
     margin-top: 10px;
+    text-align: center;
     transition: background 0.3s, color 0.3s;
 }
 
