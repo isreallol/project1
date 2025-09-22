@@ -38,12 +38,12 @@ function animation(){
     gsap.from("#subtitle", {
         opacity: 0,
         easein: 'power1,out',
-        duration: 2.5,
+        duration: 2,
     })
 
     gsap.to("#subtitle", {
         x: 390,
-        duration: 2.5,
+        duration: 2,
         onComplete: function(){gsap.to('#options',{
             duration: 1,
             opacity: 1,
@@ -52,6 +52,31 @@ function animation(){
             ease: "sine.out"
         })}
     })
+
+    //LEFTOVERS
+    gsap.from("#leftover_title", {
+        opacity: 0,
+        easein: 'power1,out',
+        duration: 2.5,
+    })
+
+    gsap.from("#leftover_title", {
+        x: 390,
+        duration: 2.5,
+    })
+
+    gsap.from("#leftover_subtitle", {
+        opacity: 0,
+        easein: 'power1,out',
+        duration: 3,
+    })
+
+    gsap.from("#leftover_subtitle", {
+        x: 390,
+        duration: 3,
+    })
+
+
 
 }
 

@@ -128,3 +128,28 @@ footer {
     transform: translateY(0);
   }
 }
+/*LEFTOVER STYLING*/
+/*Heading*/
+h1.two{
+    color: #51ff00;
+    font-size: 48px;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.leftover_main-image {
+    max-width: 100%;
+    width: 400px;      /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #51ff00;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.leftover_main-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(106, 255, 0, 0.929);
+}
