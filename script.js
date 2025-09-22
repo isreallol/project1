@@ -22,25 +22,25 @@ function animation(){
             duration: 7,
         })}
     })*/
+
    gsap.to("#title", {
-        x: 250,
+        x: 350,
         //ease: 'bounce.out',
         duration: 2,
     })
     gsap.to("#subtitle", {
-        x: 280,
+        x: 370,
         //ease: 'bounce.out',
         duration: 2.5,
     })
 
-    const textElement = document.getElementById('myGlowText');
-
-    textElement.addEventListener('mouseover', () => {
-    textElement.classList.add('glowing-text');
-    });
-
-    textElement.addEventListener('mouseout', () => {
-    textElement.classList.remove('glowing-text');
+    gsap.to("#options", {
+        duration: 1,
+        opacity: 1,
+        delay: 0.5,
+        stagger: 0.1, // stagger in from the left with a 0.1 second gap in between animations
+        ease: "sine.out"
     });
 
 }
+
