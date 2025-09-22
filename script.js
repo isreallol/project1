@@ -23,24 +23,35 @@ function animation(){
         })}
     })*/
 
-   gsap.to("#title", {
-        x: 350,
-        //ease: 'bounce.out',
-        duration: 2,
+   gsap.from("#title", {
+        opacity: 0,
+        easein: 'power1,out',
+        duration: 1.5,
     })
-    gsap.to("#subtitle", {
-        x: 370,
-        //ease: 'bounce.out',
+
+    gsap.to('#title',{
+        y: 20,
+            ease: 'bounce.out',
+            duration: 1.5,
+    })
+
+    gsap.from("#subtitle", {
+        opacity: 0,
+        easein: 'power1,out',
         duration: 2.5,
     })
 
-    gsap.to("#options", {
-        duration: 1,
-        opacity: 1,
-        delay: 0.5,
-        stagger: 0.1, // stagger in from the left with a 0.1 second gap in between animations
-        ease: "sine.out"
-    });
+    gsap.to("#subtitle", {
+        x: 390,
+        duration: 2.5,
+        onComplete: function(){gsap.to('#options',{
+            duration: 1,
+            opacity: 1,
+            delay: 0.5,
+            stagger: 0.1, // stagger in from the left with a 0.1 second gap in between animations
+            ease: "sine.out"
+        })}
+    })
 
 }
 

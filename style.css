@@ -21,6 +21,7 @@ h1 {
     color: #ffd700;
     font-size: 48px;
     margin: 20px;
+    text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -118,7 +119,7 @@ footer {
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeIn1 12.0s ease-out forwards;
+  animation: fadeIn1 20.0s ease-out forwards;
 }
 
 @keyframes fadeIn {
