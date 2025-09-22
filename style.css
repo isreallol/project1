@@ -153,3 +153,76 @@ h1.two{
     transform: scale(1.1);
     box-shadow: 0 0 30px rgba(106, 255, 0, 0.929);
 }
+
+.leftover_choices-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.leftover_choice {
+    text-align: center;
+    border: 2px solid #51ff00;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.leftover_choice:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(106, 255, 0, 0.929);
+}
+
+
+.leftover_choice a {
+    text-decoration: none;
+    color: #6aff00;
+    border: 1px solid #51ff00;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.leftover_choice a:hover {
+    background: #51ff00;
+    color: white;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    text-shadow: 
+    0 0 5px #0f0,   /* bright green */
+    0 0 10px #0f0,  
+    0 0 20px #3f3,  /* lighter green */
+    0 0 40px #6f6;  /* soft neon green */
+}
+
+/* Optional: animated glow */
+.glow-animate {
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    from {
+        text-shadow: 
+            0 0 5px #0f0,
+            0 0 10px #0f0,
+            0 0 20px #3f3,
+            0 0 40px #6f6;
+    }
+    to {
+        text-shadow: 
+          0 0 10px #3f3,
+          0 0 20px #6f6,
+          0 0 40px #0f0,
+          0 0 80px #0f0;
+      }
+    }

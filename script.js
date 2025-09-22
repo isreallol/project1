@@ -23,7 +23,7 @@ function animation(){
         })}
     })*/
 
-   gsap.from("#title", {
+    gsap.from("#title", {
         opacity: 0,
         easein: 'power1,out',
         duration: 1.5,
@@ -68,12 +68,12 @@ function animation(){
     gsap.from("#leftover_subtitle", {
         opacity: 0,
         easein: 'power1,out',
-        duration: 3,
+        duration: 4.5,
     })
 
     gsap.from("#leftover_subtitle", {
         x: 390,
-        duration: 3,
+        duration: 4.5,
     })
 
 
