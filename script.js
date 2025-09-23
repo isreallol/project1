@@ -76,7 +76,17 @@ function animation(){
         duration: 4.5,
     })
 
+    //CRISPER
+    gsap.from("#faze_up", {
+        opacity: 0,
+        easein: 'power1,out',
+        duration: 2.5,
+    })
 
-
+    gsap.from("#faze_up", {
+        y:40,
+        //ease: 'bounce.out',
+        duration: 2.5,
+    })
 }
 
