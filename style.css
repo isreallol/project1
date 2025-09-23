@@ -18,15 +18,15 @@
     }
 
     h1 {
-        color: #ffd700;
+        color: #17b9ea;
         font-size: 48px;
         margin: 20px;
         text-align: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        text-shadow: 3px 3px 5px rgba(245, 241, 241, 0.7);
     }
 
     h2 {
-        color: #ffd700;
+        color: #00b7ff;
         text-align: center;
         font-size: 48px;
         margin: 20px;
@@ -62,7 +62,7 @@
 
     .choice {
         text-align: center;
-        border: 2px solid #ffd700;
+        border: 2px solid #01aeff;
         border-radius: 10px;
         padding: 20px;
         background: rgba(0, 0, 0, 0.7);
@@ -72,14 +72,13 @@
 
     .choice:hover {
         transform: scale(1.1);
-        box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+        box-shadow: 0 0 15px rgba(248, 247, 245, 0.7);
     }
-
-
+    
     .choice a {
         text-decoration: none;
-        color: #ffd700;
-        border: 1px solid #ffd700;
+        color: #00c3ff;
+        border: 1px solid #00e5ff53;
         padding: 10px 15px;
         border-radius: 5px;
         display: block;
@@ -89,8 +88,8 @@
     }
 
     .choice a:hover {
-        background: #ffd700;
-        color: #000;
+        background: #0495fc;
+        color: #ffffff;
     }
 
     .main-image {
@@ -99,14 +98,14 @@
         height: auto;
         display: block;
         margin: 20px auto;
-        border: 5px solid #ffd700;
+        border: 5px solid #00e5ff;
         border-radius: 10px;
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
     .main-image:hover {
         transform: scale(1.1);
-        box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+        box-shadow: 0 0 30px rgb(249, 249, 248);
     }
 
     footer {
