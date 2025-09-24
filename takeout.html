@@ -8,23 +8,24 @@
             <script src = "https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
         </head>
         <body>
-            <h1>Path of the Mystery Takeout Bag</h1>
-            <p>
+            <h1 id = "title" class="four">Path of the Mystery Takeout Bag</h1>
+            <p id="faze_up" class="one">
                 The bag sits at the back like a forgotten promise.
                 It smells faintly of soy sauce and mystery,
                 but the expiration date? Nonexistent. 
                 You open the bag to find… 
                 fortune cookies and a box of something unidentifiable. 
             </p>
-            <p>Do you taste it, or leave it be?</p>
-            <img src="Photo/Takeout_Photo.jpg" class = "main-image" alt="Takeout">
-            <div class="choices-container">
-                <div class = "choice">
+            <p id="t_subtitle" class="one">Do you taste it, or leave it be?</p>
+            <img src="Photo/Takeout_Photo.jpg" class = "t_main-image" alt="Takeout">
+            <div class="t_choices-container">
+                <div class="t_choice fade-in" id = "options">
                     <a href = "Answer3.html">Taste it...</a>
                 </div>
-                <div class = "choice">
+                <div class="t_choice fade-in" id = "options">
                     <a href="index.html">Live to Eat Another Day</a>
                 </div>
             </div>
+            <script src="script.js"></script>
         </body>
 </html>

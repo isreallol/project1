@@ -88,5 +88,17 @@ function animation(){
         //ease: 'bounce.out',
         duration: 2.5,
     })
+    //TAKEOUT
+    gsap.from("#t_subtitle", {
+        opacity: 0,
+        easein: 'power1,out',
+        duration: 3.5,
+    })
+
+    gsap.from("#t_subtitle", {
+        x: 390,
+        duration: 2.5,
+    })
+
 }
 
