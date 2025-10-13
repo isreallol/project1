@@ -461,8 +461,8 @@
                     transform: translateZ(0) translateY(0);
             opacity: 1;
         }
-        }
-        @keyframes tracking-in-contract-bck-top {
+    }
+    @keyframes tracking-in-contract-bck-top {
         0% {
             letter-spacing: 1em;
             -webkit-transform: translateZ(400px) translateY(-300px);
@@ -504,8 +504,8 @@
                     transform: translateZ(0) translateY(0);
             opacity: 1;
         }
-        }
-        @keyframes tracking-in-contract-bck-bottom {
+    }
+    @keyframes tracking-in-contract-bck-bottom {
         0% {
             letter-spacing: 1em;
             -webkit-transform: translateZ(400px) translateY(300px);
